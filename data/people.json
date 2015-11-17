@@ -1,0 +1,20 @@
+{
+  "characteristics": [
+    {
+      "person": "Cooper",
+      "food": "Turkey",
+      "toy": "Headless Animal"
+    },
+    {
+      "person": "Reva",
+      "food": "String cheese",
+      "toy": "Kitchen Set"
+    },
+    {
+      "person": "Sadie",
+      "food": "Squeeze juice",
+      "toy": "Jumper"
+    }
+  ]
+}
+

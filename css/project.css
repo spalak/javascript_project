@@ -1,0 +1,42 @@
+body {
+  background-color: #fff;
+  background: url("../images/pizza.png") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.employee {
+	color: blue;
+}
+
+.advisor {
+	color: red;
+}
+
+img {
+	width: 15em;
+	height: auto;
+}
+
+.error-message {
+	color: red;
+}
+
+.highlighted-image {
+	padding: 1px;
+	border: 2px solid blue;
+}
+
+.flex-container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+.flex-item {
+	text-align: center;
+}

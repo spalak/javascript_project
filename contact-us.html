@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="css/project.css" />
+  </head>
+  <body>
+  	<div id="page">
+    	<h1 id="header">Contact Us</h1>
+    	 <form method="post" id='contact-form'>
+        <label for="email">Email address: </label>
+        <div><input type="email" id="user-email" /></div>
+        <div id="email-feedback" class="error-message"></div>
+
+        <label for="message">Message: </label>
+        <div><textarea name="message" id='user-message' cols="30" rows="4"></textarea></div>
+        <div id="message-feedback" class="error-message"></div>
+        <input type="submit" id='form-submit' />
+        <div id="form-feedback" class='error-message'></div>
+      </form>
+	    <div id="footer"></div>
+  	</div>
+    <script src="javascripts/jquery-2.1.4.js"></script>
+    <script src="javascripts/contact-us.js"></script>
+  </body>
+</html>
