@@ -1,17 +1,16 @@
-// This script is to test that I can add data using Ajax and a seperate JSON file - in this case, 
+// This script is to test that I can add data using Ajax and a seperate JSON file - in this case,
 // bio info about favorite food and toy for specific users.
 
-personId = 'Cooper';
 var xhr = new XMLHttpRequest(); // Create XML object
 
 // When ready state changes, perform a check to make sure the response is a 200 request, then proceed
 xhr.onload = function() {
-	if(xhr.status === 200) { 
+	if(xhr.status === 200) {
 		// document.getElementById('factsheet').innerHTML = '<h1> test if this works </h1>';
 		responseObject = JSON.parse(xhr.responseText);
-		
-		
-		
+
+
+
 
 		// Build up a string with new content based on the data
 		for (var i=0; i<responseObject.characteristics.length; i++) {
